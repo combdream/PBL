@@ -1,26 +1,12 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "mine/mine/mine"
-
+    "pages/index/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
-  },
-  "tabBar": {
-      "list": [
-          {
-          "pagePath": "pages/index/index"
-
-      },
-      {
-          "pagePath": "pages/logs/logs"
-      }
-    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
