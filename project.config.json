@@ -38,7 +38,8 @@
         "showES6CompileOption": false,
         "disableUseStrict": false,
         "useCompilerPlugins": false,
-        "ignoreUploadUnusedFiles": true
+        "ignoreUploadUnusedFiles": true,
+        "minifyWXML": true
     },
     "appid": "wx69fcf5e718c2f178",
     "compileType": "miniprogram",
