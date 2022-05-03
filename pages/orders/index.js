@@ -5,6 +5,23 @@ Page({
      * 页面的初始数据
      */
     data: {
+        tabs:[
+            {
+                id:0,
+                value:"全部订单",
+                isActive:true
+            },
+            {
+                id:1,
+                value:"已预订",
+                isActive:true
+            },
+            {
+                id:2,
+                value:"已完成",
+                isActive:true
+            }
+        ]
 
     },
 
