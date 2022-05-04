@@ -5,11 +5,13 @@
         wx:key="id"
         class="title_item {{item.isActive?'active':''}} "
         bindtap="handleItemTap"
-        data-index="index"
+        data-index="{{index}}"
         >
         {{item.value}}    
         </view>
     </view>
-    <view class="tabs_content">内容</view >
+    <view class="tabs_content">
+        <slot ></slot>
+    </view >
 </view>
   

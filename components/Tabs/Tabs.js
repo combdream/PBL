@@ -7,11 +7,12 @@ Component({
     },
     methods:{
         //点击事件
-        habdleItemTap(e){
+        handleItemTap(e){
             //1 获取点击索引
             const {index}=e.currentTarget.dataset;
+            //console.log(index);
             //2 触发 父族中的事件 自定义
-            this.triggerEvent("tabsItemChange",{index})
+            this.triggerEvent("tabsItemChange",{index});
         }
 
     }

@@ -10,7 +10,7 @@
     flex: 1;
 }
 .active{
-    color: var(--themeColor);
+    color: #ff8800;
     border-bottom: 5rpx solid currentColor;
 }
 /*.tabs_content{}*/

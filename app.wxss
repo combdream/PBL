@@ -7,7 +7,7 @@ page,view,swiper,swiper-item,image,navigator{
 /* 主题颜色 通过变量实现*/
 page{
     /*定义主题颜色 橙色 */
-    --themeClolor:#ff8800;
+    --themeColor:#ff8800;
     /*定义字体大小 假设大小是 375px
     1px = 2rpx
     */

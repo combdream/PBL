@@ -14,12 +14,12 @@ Page({
             {
                 id:1,
                 value:"已预订",
-                isActive:true
+                isActive:false
             },
             {
                 id:2,
                 value:"已完成",
-                isActive:true
+                isActive:false
             }
         ]
 
@@ -31,7 +31,16 @@ Page({
     onLoad(options) {
 
     },
-
+    //标题点击事件，从子组件中传递过来
+    handleTabsItemChange(e){
+        //console.log(e);
+        const {index}=e.detail;
+        let {tabs}=this.data;
+        tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
+        this.setData({
+            tabs
+        })
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
