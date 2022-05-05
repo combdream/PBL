@@ -1,1 +1,11 @@
 /* pages/orders/index.wxss */
+
+  .button-sp-area{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .mini-btn{
+    margin-bottom: 46rpx;
+    margin-left: 39%; 
+  }
