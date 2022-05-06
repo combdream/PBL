@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/index/xq",
     "pages/orders/index",
     "pages/index/index"
     
