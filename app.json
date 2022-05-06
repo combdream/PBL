@@ -1,6 +1,7 @@
 {
   "pages":[
-    "pages/index/xq",
+    "pages/order_xq/index",
+    "pages/xiaoxi/index",
     "pages/orders/index",
     "pages/index/index"
     
