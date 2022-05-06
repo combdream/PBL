@@ -1,4 +1,4 @@
-<view>首页</view>
+<!--轮播图wxml-->
 <swiper autoplay="true"
 interval="2000"
 indicator-dots="true"
@@ -6,7 +6,7 @@ indicator-color="#FFFFFF"
 indicator-active-color="#888888"
 circular="true"
 >    
-  <swiper-item wx:for="{{banners}}">
+  <swiper-item wx:for="{{swiperList}}">
     <image src="/imge/{{item}}"></image>
   </swiper-item> 
 </swiper>

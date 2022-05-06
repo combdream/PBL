@@ -1,9 +1,10 @@
 {
     "pages": [
-        "pages/orders/index",
         "pages/index/index",
+        "pages/orders/index",
         "pages/xiaoxi/index",
-        "pages/order_xq/index"
+        "pages/order_xq/index",
+        "pages/mine/mine"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -14,7 +15,7 @@
     "tabBar": {
         "selectedColor":"#fff",
         "backgroundColor": "#f5f5f5",
-        "borderStyle": "white",
+        "borderStyle": "blue",
         "list": [
             {
                 "text": "首页",
@@ -24,6 +25,16 @@
             },{
                 "text": "订单",
                 "pagePath": "pages/orders/index",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },{
+                "text": "消息",
+                "pagePath": "pages/xiaoxi/index",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },{
+                "text": "我的",
+                "pagePath": "pages/mine/mine",
                 "iconPath": "",
                 "selectedIconPath": ""
             }
