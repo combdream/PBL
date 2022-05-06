@@ -22,9 +22,9 @@
         "uploadWithSourceMap": true,
         "compileHotReLoad": false,
         "lazyloadPlaceholderEnable": false,
-        "useMultiFrameRuntime": false,
-        "useApiHook": false,
-        "useApiHostProcess": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
         "babelSetting": {
             "ignore": [],
             "disablePlugins": [],
@@ -32,7 +32,6 @@
         },
         "useIsolateContext": false,
         "userConfirmedUseIsolateContext": false,
-
         "userConfirmedBundleSwitch": false,
         "packNpmManually": false,
         "packNpmRelationList": [],
@@ -45,16 +44,11 @@
     },
     "appid": "wx69fcf5e718c2f178",
     "compileType": "miniprogram",
-
-    "libVersion": "2.19.6",
-
     "libVersion": "2.19.4",
-
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4
     },
-
     "projectname": "pbl",
     "condition": {}
 }
