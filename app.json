@@ -1,18 +1,36 @@
 {
-  "pages":[
-    "pages/order_xq/index",
-    "pages/xiaoxi/index",
-    "pages/orders/index",
-    "pages/index/index"
+    "pages": [
+        "pages/orders/index",
+        "pages/index/index",
+        "pages/xiaoxi/index",
+        "pages/order_xq/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ff8800",
+        "navigationBarTitleText": "明日之星",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "selectedColor":"#fff",
+        "backgroundColor": "#f5f5f5",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },{
+                "text": "订单",
+                "pagePath": "pages/orders/index",
+                "iconPath": "",
+                "selectedIconPath": ""
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
     
-    
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
 }
+
