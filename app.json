@@ -4,6 +4,7 @@
         "pages/orders/index",
         "pages/xiaoxi/index",
         "pages/order_xq/index",
+        "pages/lsy/index",
         "pages/mine/mine"
     ],
     "window": {
@@ -13,7 +14,7 @@
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
-        "selectedColor":"#fff",
+        "selectedColor":"#ff8800",
         "backgroundColor": "#f5f5f5",
         "borderStyle": "black",
         "list": [
