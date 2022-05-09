@@ -5,7 +5,8 @@
         "pages/xiaoxi/index",
         "pages/order_xq/index",
         "pages/lsy/index",
-        "pages/mine/mine"
+        "pages/mine/mine",
+        "pages/login/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
