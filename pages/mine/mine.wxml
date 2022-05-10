@@ -1,8 +1,15 @@
-<view  class="container">
-  <button wx:if="{{!hasUserInfo}}" bindtap="getUserProfile">登录</button>
-  <view  class="userinfo">
-    <image  src="{{userInfo.avatarUrl}}"></image>
-    <view class="user-name" >{{userInfo.nickName}}</view>
-
+<view  class="container"> 
+    <button wx:if="{{!hasUserInfo}}"bindtap="getUserProfile">登录</button>  
+  <view  class="userinfo" >
+    <image class="picture" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user-name" >昵称 ： {{userInfo.nickName}}</view>
+    <view class="user-id"> 账号 ： </view>
   </view>
+  <view class="user-other">
+    <button class="user-exchange" size="default" form-type="submit"> 修改信息</button>
+    <view class="user-num"> 电话</view>
+    <view class="user-card"> 证件</view>
+    <view class="user-emlie">邮箱</view>
+  </view>
+ <button class="login_out" bindtap="loginOut" type="warn">退出登录</button>
 </view>
