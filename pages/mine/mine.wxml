@@ -1,2 +1,8 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view  class="container">
+  <button wx:if="{{!hasUserInfo}}" bindtap="getUserProfile">登录</button>
+  <view  class="userinfo">
+    <image  src="{{userInfo.avatarUrl}}"></image>
+    <view class="user-name" >{{userInfo.nickName}}</view>
+
+  </view>
+</view>

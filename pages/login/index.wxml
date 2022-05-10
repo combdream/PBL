@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <button wx:if="{{!hasUserInfo}}" bindtap="getUserProfile">登录</button>
+  <view  class="userinfo">
+    <image src="{{userInfo.avatarUrl}}"></image>
+    <view>{{userInfo.nickName}}</view>
+  </view>
+</view>

@@ -1,1 +1,18 @@
-/* pages/mine/mine.wxss */
+/**index.wxss**/
+
+.userinfo{
+    height: 1014rpx;
+    width: 668rpx;
+    padding: 60rpx;
+    border-top:center;
+    border-style: ridge;
+    border-width:5rpx;
+  }
+image{
+    height: 200rpx;
+    width: 200rpx;
+    margin-left:0% ;
+}
+.user-name{
+    justify-self: space-around;
+}

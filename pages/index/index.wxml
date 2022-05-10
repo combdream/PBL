@@ -10,3 +10,18 @@ circular="true"
     <image src="/picture/{{item}}"></image>
   </swiper-item> 
 </swiper>
+<view class='top'>
+<view class='top-text'> 请选择城市</view>
+<!-- 下拉框 -->
+<view class='top-selected' bindtap='bindShowMsg'>
+  <text>{{grade_name}}</text>
+  <image src='/icons/下拉.png'></image>
+</view>
+<!-- 下拉需要显示的列表 -->
+<view class="select_box" wx:if="{{select}}">
+  <view wx:for="{{grades}}" wx:key="unique">
+    <view class="select_one" bindtap="mySelect" data-name="{{item}}">{{item}}</view>
+  </view>
+</view>
+</view>
+<navigator url="/pages/lsy/index"><view><button style="color:#ff8800" size="default">查询</button></view></navigator>

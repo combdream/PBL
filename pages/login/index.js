@@ -1,4 +1,4 @@
-
+// index.js
 Page({
     data:{
       hasUserInfo:false,
