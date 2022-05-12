@@ -5,6 +5,23 @@
     </view>
   </view>
 </Tabs>
+<view class="outbor" >
+    <view class="row" wx:for="{{dataList}}" wx:key="">
+    <view class="id" >
+     {{item.id}}
+    </view>
+    <view class="text">
+        <view class="price">
+            价格: {{item.pricre}}
+        </view>
+         <view class="more" >
+            {{item.more}}
+         </view> 
+          
+    </view>
+      
+</view>     
+</view>
 <view class="btn-area" id="buttonContainer">
     <view class="button-sp-area">
         <button class="mini-btn" type="default" size="mini"  >订单详情</button>

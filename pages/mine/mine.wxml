@@ -1,16 +1,27 @@
 <view  class="container"> 
     <button wx:if="{{!hasUserInfo}}"bindtap="getUserProfile">登录</button> 
-    
+
   <view  class="userinfo" >
     <image class="picture" src="{{userInfo.avatarUrl}}"></image>
     <view class="user-name" >昵称 ： {{userInfo.nickName}}</view>
     <view class="user-id"> 账号 ： </view>
   </view>
-  <view class="user-other">
-    <button class="user-exchange" size="default" form-type="submit" bindtap="exchangeUser"> 修改信息</button>
-    <view class="user-num"> 电话 :{{}}</view>
-    <view class="user-card"> 证件</view>
-    <view class="user-emlie">邮箱</view>
+  <view class="user-other" >
+    <button class="user-exchange"   size="default" form-type="submit" bindtap="exchangeUser"> 修改完成</button>
+    <view class="phone">电话 : </view>
+    <view class="user-num">
+    
+            <input class="weui-input"type="number" name="PhoneNumber" value="{{PhoneNumber}} " placeholder="请输入电话号码" maxlength="11"/>
+    </view>
+    <view class="card">身份证号码 :</view>
+    <view class="user-card"> 
+        <input class="weui-input"type="idcard" name="inputUserID" value="{{inputUserID}} " placeholder="请输入身份证号码" maxlength="23"/>
+    </view>
+    <view class="emlie">邮箱地址 :</view>
+    <view class="user-emlie">
+        <input class="weui-input"type="inputEmile" name="PhoneNumber" value="{{PhoneNumber}} " placeholder="请输入邮箱" maxlength="11"/>
+    </view>
   </view>
+  
  <button class="login_out" bindtap="loginOut" type="warn">退出登录</button>
 </view>

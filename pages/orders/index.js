@@ -21,6 +21,12 @@ Page({
                 value:"已完成",
                 isActive:false
             }
+        ],
+        dataList:[
+            {id:"订单一",pricre:"￥255",more:"详情"},
+            {id:"订单二",pricre:"￥200",more:"更多"},
+            {id:"订单三",pricre:"￥150",more:"修改评价"}
+
         ]
 
     },
@@ -28,7 +34,14 @@ Page({
     /**
      * 生命周期函数--监听页面加载
      */
-    onLoad(options) {
+    onLoad:function(options) {
+        wx.request({
+          url: 'https://api.it120.cc/doc.html#/%E5%89%8D%E7%AB%AFapi%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3/%E8%AE%A2%E5%8D%95%E7%AE%A1%E7%90%86/createUsingPOST',
+          data:{},
+          success:res=>{
+              console.log(res)
+          }
+        })
 
     },
     //标题点击事件，从子组件中传递过来
