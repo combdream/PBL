@@ -3,7 +3,7 @@
       入住时间：<text class="txt">{{time1}}\n</text>
       退房时间：<text class="txt">{{time2}}\n</text> 
       房型：<text class="txt">{{house}}\n</text>
-      订房数量：<text class="txt">{{num}}</text>间\n
+      订房数量：<text class="txt">{{num}}\n</text>
       \n预约者姓名： <text class="txt">{{name}}\n</text>
       联系电话：<text class="txt">{{phone}}\n</text>
       费用： <text class="txt">{{price}}\n</text>

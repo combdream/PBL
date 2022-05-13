@@ -1,17 +1,11 @@
+// miniprogram_npm/weui-miniprogram/pull-down-refresh/pull-down-refresh.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    time1:'3月16日',
-    time2:'3月17日',
-    house:'大床房',
-    num:'1间',
-    name:'小明',
-    phone:'18281745257',
-    price:'794',
-    mini:'原价：854元\n新人优惠：减60元'
+
   },
 
   /**
