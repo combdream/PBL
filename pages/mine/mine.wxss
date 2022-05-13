@@ -1,18 +1,130 @@
 /**index.wxss**/
+@import "/lib/weui.wxss";
+.container{
+    border: 2px solid #ff8800;
+    width: 375px;
+    height: 650px;
+    padding: 10px;
+    margin: 8px;
+    margin-top: 5px;
+}
 
 .userinfo{
-    height: 1014rpx;
-    width: 668rpx;
-    padding: 60rpx;
-    border-top:center;
-    border-style: ridge;
-    border-width:5rpx;
+    width: 350px;
+    height: 150px;
+    margin-right: 2px;
+    position:relative;
   }
-image{
-    height: 200rpx;
-    width: 200rpx;
-    margin-left:0% ;
+.picture{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
 }
 .user-name{
-    justify-self: space-around;
+    width: 175px;
+    height: 40px;
+    border: solid #ff8800;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 20px ;
+    text-align: left;
+    line-height: 30px;
+    text-indent: 15px;
+
+}
+.user-id{
+    /**宽度**/
+    width: 175px;
+    /**高**/
+    height: 40px;
+    /**边框 实线 颜色**/
+    border: solid #ff8800;
+    /**绝对**/
+    position: absolute;
+    /**绝对位置的方框的右边缘的左侧偏移量**/
+    right: 20px;
+    /**绝对上边缘向下偏移量**/
+    top: 80px;
+    /**边框圆角度数**/
+    border-radius: 20px ;
+    /**文本位置，靠右对其**/
+    text-align: left;
+    /** 文本首行间距**/
+    text-indent: 15px;
+    /**行距**/
+    line-height: 30px;
+}
+.user-other{
+    position:relative;
+    width: 350px;
+    height: 350px;
+    position:fixed ;
+    border:2px  solid #ff8800;
+    border-radius: 10px ;
+}
+.user-num{
+    position: absolute;
+    top: 28px;
+    right: 40px;
+    width: 275px;
+    height: 40px;
+    border: solid #ff8800;
+    border-radius: 20px ;
+    text-align: left;
+    text-indent: 15px;
+    line-height: 30px;
+}
+.phone{
+    position: absolute;
+    font-size: 40rpx;
+    text-indent: 15px;
+}
+.card{
+    position: absolute;
+    font-size: 40rpx;
+    top: 130rpx;
+    text-indent: 15px;
+}
+.emlie{
+    position: absolute;
+    font-size: 40rpx;
+    top: 290rpx;
+    text-indent: 15px;
+}
+.user-card{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 275px;
+    height: 40px;
+    border: solid #ff8800;
+    border-radius: 20px ;
+    text-align: left;
+    text-indent: 15px;
+    line-height: 30px;
+}
+
+.user-emlie{
+    position: absolute;
+    top: 180px;
+    right: 40px;
+    width: 275px;
+    height: 40px;
+    border: solid #ff8800;
+    border-radius: 20px ;
+    text-align: left;
+    text-indent: 15px;
+    line-height: 30px;
+}
+.user-exchange{
+    position: absolute;
+    top: 280px;
+    right: 80px;
+}
+.login_out{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    
 }

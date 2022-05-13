@@ -1,1 +1,145 @@
-/* pages/yuding/index.wxss */
+image{
+    width:750rpx;
+    height:100% ;
+  }
+  /*轮播图高度*/
+  .swiper{
+  width:750rpx;
+  height: 350rpx;
+  }
+  /*文字播放*/
+  .marquee {
+    width: 100%;
+    display: flex;
+    /* position: absolute;
+    bottom: 1rem;
+    left: 0; */
+  }
+  .marquee_box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+  .marquee_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .marquee_top {
+    transition: all 1s;
+    margin-top: -100rpx;
+  }
+  .marquee_View {
+    display: flex;
+  }
+  .marquee_View view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15rpx 0 0 5rpx;
+    padding: 10rpx 20rpx;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 22rpx;
+    color: #fff;
+    background-color: rgba(000, 000, 000, 0.5);
+    border-radius: 50rpx;
+  }
+  .marquee_Img {
+    width: 35rpx;
+    height: 35rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15rpx;
+  }
+  .swiText {
+    max-width: 500rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /**文字wxss**/
+  .title{
+    color: slategrey;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /**下拉框wxss**/
+  /* fenlei */
+  .fenlei{
+    margin: 0 25rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    border-bottom: 1rpx solid #e6e6e6;
+    display: flex;
+    align-items: center;
+  }
+  .fenlei text{
+    font-size: 30rpx;
+    color: #999999;
+    margin-left: 15rpx;
+  }
+  /* 下拉框 */
+  .select_box {
+    background: #fff;
+    width: 620rpx;
+    /* margin: 0 auto; */
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: left;
+    position: relative;
+  }
+  .select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 86rpx;
+    /* border: 1px solid #efefef; */
+    border-radius: 8rpx;
+    display: flex;
+    align-items: center;
+    padding: 0 20rpx;
+  }
+  .select_text {
+    font-size: 28rpx;
+    flex: 1;
+    color: rgb(102, 102, 102);
+    line-height: 86rpx;
+    height: 86rpx;
+  }
+  .select_img {
+    width: 40rpx;
+    height: 40rpx;
+    display: block;
+    transition: transform 0.3s;
+  }
+  .select_img_rotate {
+    transform: rotate(180deg);
+  }
+  .option_box {
+    position: absolute;
+    top: 86rpx;
+    width: 100%;
+    /* border: 1px solid #efefef; */
+    box-sizing: border-box;
+    height: 0;
+    overflow-y: auto;
+    border-top: 0;
+    background: #fff;
+    transition: height 0.3s;
+    z-index: 100;
+  }
+  .option {
+    display: block;
+    line-height: 40rpx;
+    font-size: 28rpx;
+    border-bottom: 1px solid #efefef;
+    padding: 10rpx;
+    color: rgb(102, 102, 102);
+  }
+  /*图片插入*/
+  .tupian{
+    margin: 20rpx 80rpx 80rpx 100rpx ;
+    height: 230rpx;
+  }
+  

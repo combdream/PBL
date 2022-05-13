@@ -6,12 +6,12 @@ indicator-color="#FFFFFF"
 indicator-active-color="#888888"
 circular="true"
 >    
-  <swiper-item wx:for="{{swiperList}}">
+  <swiper-item wx:for="{{swiperList}}" wx:key="unique">
     <image src="/picture/{{item}}"></image>
   </swiper-item> 
 </swiper>
 <view class='top'>
-<view class='top-text'> 请选择城市</view>
+<view class='top-text'> 城市</view>
 <!-- 下拉框 -->
 <view class='top-selected' bindtap='bindShowMsg'>
   <text>{{grade_name}}</text>
@@ -24,4 +24,17 @@ circular="true"
   </view>
 </view>
 </view>
-<navigator url="/pages/lsy/index"><view><button style="color:#ff8800" size="default">查询</button></view></navigator>
+<view class="choseData">
+  <view class="body-view">
+    <text class="data1" decode="true" style="color: black; font-size: 40rpx;">入住时间    &emsp;&emsp;   离店时间</text>
+    <navigator url="/pages/time/time">
+    <view class="btn_area">
+    <text decode="true">{{checkInDate}}</text>
+    <text decode="true">&emsp;&emsp;&emsp;&emsp;</text>
+    <text decode="true">{{}}</text>
+    <text decode="true">{{checkOutDate}}</text>
+    </view></navigator>
+  </view>
+</view>
+<navigator url="/pages/yuding/index"><view><button style="color:#ff8800" size="default">查询</button></view></navigator>
+

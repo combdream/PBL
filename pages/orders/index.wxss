@@ -9,3 +9,36 @@
     margin-bottom: 46rpx;
     margin-left: 39%; 
   }
+.outbor{
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.row{
+  border: 1rpx solid #ff8800;
+  border-radius: 40rpx;
+  display: flex;
+  height: 200rpx; 
+  margin-bottom: 20rpx;
+}
+.id{
+    padding: 15rpx;
+    flex: 5;
+    font-size: 50rpx;
+}
+.text{
+  display: flex;
+  flex: 5;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  padding-left: 20rpx;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.more{
+    color: #ff8800;
+    font-size: 35rpx;
+}
+.text.price{
+    color: #999;
+}
