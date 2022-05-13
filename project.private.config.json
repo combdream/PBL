@@ -1,24 +1,10 @@
 {
-<<<<<<< Updated upstream
-    "projectname": "pbl",
-    "setting": {
-        "compileHotReLoad": false,
-        "urlCheck": false
-    },
-    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
     "condition": {
         "miniprogram": {
             "list": [
                 {
                     "name": "我的",
                     "pathName": "pages/mine/mine",
-                    "query": "",
-                    "launchMode": "default",
-                    "scene": null
-                },
-                {
-                    "name": "登录",
-                    "pathName": "pages/login/index",
                     "query": "",
                     "launchMode": "default",
                     "scene": null
@@ -31,35 +17,7 @@
                     "scene": null
                 }
             ]
-=======
-  "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": [
-        {
-          "name": "xq",
-          "pathName": "pages/order_xq/index",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "xx",
-          "pathName": "pages/xiaoxi/index",
-          "query": "",
-          "scene": null,
-          "launchMode": "default"
->>>>>>> Stashed changes
         }
-      ]
-    }
-  }
+    },
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
 }
