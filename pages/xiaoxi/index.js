@@ -107,9 +107,7 @@ Page({
 
   },
 
-  /**
-   * 发送点击监听
-   */
+  
   sendClick: function(e) {
     msgList.push({
       speaker: 'customer',

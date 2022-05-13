@@ -4,8 +4,6 @@
   "navigationBarBackgroundColor": "#ff8800",
   "backgroundTextStyle": "dark",
   "enablePullDownRefresh": false,
-  "usingComponents": {
-    
-    
+  "usingComponents": {  
   }
 }

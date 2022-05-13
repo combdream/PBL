@@ -31,7 +31,7 @@ input {
   color: #444;
   line-height: 7vw;
   padding: 2vw 2.5vw;
-  background-color: #fff;
+  background-color: rgb(245, 190, 89);
   margin-left: -1.6vw;
   border-radius: 10rpx;
   z-index: 10;
@@ -39,6 +39,7 @@ input {
 
 .rightMsg {
   font-size: 35rpx;
+
   color: #444;
   line-height: 7vw;
   padding: 2vw 2.5vw;

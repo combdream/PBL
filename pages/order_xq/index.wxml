@@ -7,6 +7,6 @@
       \n预约者姓名： <text class="txt">{{name}}\n</text>
       联系电话：<text class="txt">{{phone}}\n</text>
       费用： <text class="txt">{{price}}\n</text>
-      明细：\n<text class="txtt">{{mini}}\n</text>
+      明细：<text class="txtt">{{mini}}\n</text>
     </view>
 </view>
