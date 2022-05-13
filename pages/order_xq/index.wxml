@@ -1,2 +1,12 @@
-<!--pages/order_xq/index.wxml-->
-<text>pages/order_xq/index.wxml</text>
+<view class="box" style="width: 701rpx; height: 1008rpx; display: block; box-sizing: border-box">
+    <view class="num" style="width: 338rpx; height: 690rpx; display: block; box-sizing: border-box">
+      入住时间：<text class="txt">{{time1}}\n</text>
+      退房时间：<text class="txt">{{time2}}\n</text> 
+      房型：<text class="txt">{{house}}\n</text>
+      订房数量：<text class="txt">{{num}}</text>间\n
+      \n预约者姓名： <text class="txt">{{name}}\n</text>
+      联系电话：<text class="txt">{{phone}}\n</text>
+      费用： <text class="txt">{{price}}\n</text>
+      明细：\n<text class="txtt">{{mini}}\n</text>
+    </view>
+</view>
