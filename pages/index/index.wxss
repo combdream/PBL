@@ -6,7 +6,7 @@ image{
 swiper{
 height: 350rpx;
 }
-view1{
+/*view1{
     border-radius: 30rpx;
     width: 300rpx;
     height: 250rpx;
@@ -15,4 +15,69 @@ view1{
     float: left;
     color: #ff8800;
     background-color: aliceblue;
-}
+}*/
+button{
+    margin-top: 500rpx;
+    margin-bottom: 500rpx;
+  }
+/* 顶部 */.top{
+    width: 100vw;
+    height: 80rpx;
+    padding: 40rpx 0rpx 20rpx 155rpx;
+    line-height: 80rpx;
+    font-size: 40rpx;
+    border-bottom: 1px solid rgb(253, 249, 249);
+  }.top-text{
+    float: left}/* 下拉框 */.top-selected{
+      width: 50%;
+      display: flex;
+      float: right;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid rgb(248, 246, 246);
+      margin: 0rpx 50rpx 0rpx 0rpx;
+      font-size: 40rpx;
+  }/* 下拉内容 */.select_box {
+      background-color: #fff;
+      margin: 0rpx 50rpx 0rpx 300rpx;
+      width: 50%;
+      float: right;
+      position: relative;
+      right: 0;
+      z-index: 1;
+      overflow: hidden;
+      text-align: left;
+      animation: myfirst 0.5s;
+      font-size: 30rpx;
+  }.select_one {
+      padding-left: 20rpx;
+      width: 100%;
+      height: 60rpx;
+      position: relative;
+      line-height: 60rpx;
+      border-bottom: 1px solid #ccc;
+  }/* 下拉过度效果 */
+  @keyframes myfirst {
+      from {
+          height: 0rpx;
+      }
+      to {
+          height: 210rpx;
+      }}/* 下拉图标 */
+    .top-selected image{
+    height:50rpx;
+    width:50rpx;
+    position: relative;
+    right: 0rpx;
+    top: 0rpx;
+  }
+  .choseData{
+      height: 100rpx;
+      position: relative;
+      margin: 100rpx 0rpx 100rpx 145rpx;
+  }
+  .btn_area{
+    height: 100rpx;
+    position: relative;
+    margin: 50rpx 0rpx 50rpx 25rpx;
+  }

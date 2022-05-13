@@ -6,7 +6,9 @@
         "pages/order_xq/index",
         "pages/lsy/index",
         "pages/mine/mine",
-        "pages/login/index"
+        "pages/login/index",
+        "pages/yuding/index",
+        "pages/time/time"
     ],
     "window": {
         "backgroundTextStyle": "light",
