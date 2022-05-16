@@ -14,12 +14,12 @@ circular="true"
 <view class='top-text'> 城市</view>
 <!-- 下拉框 -->
 <view class='top-selected' bindtap='bindShowMsg'>
-  <text>{{grade_name}}</text>
+  <text style="width: 191rpx; height: 79rpx; display: block; box-sizing: border-box">{{grade_name}}</text>
   <image src='/icons/下拉.png'></image>
 </view>
 <!-- 下拉需要显示的列表 -->
 <view class="select_box" wx:if="{{select}}">
-  <view wx:for="{{grades}}" wx:key="unique">
+  <view wx:for="{{grades}}" wx:key="this">
     <view class="select_one" bindtap="mySelect" data-name="{{item}}">{{item}}</view>
   </view>
 </view>
@@ -30,11 +30,26 @@ circular="true"
     <navigator url="/pages/time/time">
     <view class="btn_area">
     <text decode="true">{{checkInDate}}</text>
-    <text decode="true">&emsp;&emsp;&emsp;&emsp;</text>
-    <text decode="true">{{}}</text>
+    <text decode="true">&emsp;&emsp;&emsp;&emsp;&emsp;</text>
     <text decode="true">{{checkOutDate}}</text>
+    <text decode="true">&emsp;&emsp;</text>
+    <text decode="true">{{day}}</text>
     </view></navigator>
   </view>
+</view>
+<view class='mtop'>
+<view class='mtop-text'> 价格</view>
+<!-- 下拉框 -->
+<view class='m_selected' bindtap='mbindShowMsg'>
+  <text>{{money_name}}</text>
+  <image src='/icons/下拉.png' style="position: relative; left: -4rpx; top: 0rpx"></image>
+</view>
+<!-- 下拉需要显示的列表 -->
+<view class="mselect_box" wx:if="{{show}}">
+  <view wx:for="{{money}}" wx:key="this">
+    <view class="mselect_one" bindtap="mmySelect" data-name="{{item}}">{{item}}</view>
+  </view>
+</view>
 </view>
 <navigator url="/pages/yuding/index"><view><button style="color:#ff8800" size="default">查询</button></view></navigator>
 

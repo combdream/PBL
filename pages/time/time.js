@@ -365,6 +365,6 @@ Page({
     this.setData({
       dateList: dateList
     });
-  }
+  },
 })
 

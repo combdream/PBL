@@ -17,8 +17,8 @@ height: 350rpx;
     background-color: aliceblue;
 }*/
 button{
-    margin-top: 500rpx;
-    margin-bottom: 500rpx;
+    margin-top: 200rpx;
+    margin-bottom: 200rpx;
   }
 /* 顶部 */.top{
     width: 100vw;
@@ -35,14 +35,15 @@ button{
       align-items: center;
       justify-content: space-between;
       border: 1px solid rgb(248, 246, 246);
-      margin: 0rpx 50rpx 0rpx 0rpx;
+      margin: 0rpx 50rpx 0rpx 150rpx;
       font-size: 40rpx;
   }/* 下拉内容 */.select_box {
-      background-color: #fff;
-      margin: 0rpx 50rpx 0rpx 300rpx;
+      background-color: rgb(250, 246, 246);
+      padding: 50rpx 50rpx;
+      margin: 20rpx 0rpx;
       width: 50%;
       float: right;
-      position: relative;
+      position: absolute;
       right: 0;
       z-index: 1;
       overflow: hidden;
@@ -55,7 +56,7 @@ button{
       height: 60rpx;
       position: relative;
       line-height: 60rpx;
-      border-bottom: 1px solid #ccc;
+      border: 1px 1px solid #ccc;
   }/* 下拉过度效果 */
   @keyframes myfirst {
       from {
@@ -69,7 +70,7 @@ button{
     width:50rpx;
     position: relative;
     right: 0rpx;
-    top: 0rpx;
+    top: 10rpx;
   }
   .choseData{
       height: 100rpx;
@@ -79,5 +80,58 @@ button{
   .btn_area{
     height: 100rpx;
     position: relative;
-    margin: 50rpx 0rpx 50rpx 25rpx;
+    margin: 50rpx 60rpx 50rpx 0rpx;
+  }
+  /* 顶部 */.mtop{
+    width: 100vw;
+    height: 80rpx;
+    padding: 20rpx 0rpx 20rpx 155rpx;
+    line-height: 80rpx;
+    font-size: 40rpx;
+    border-bottom: 1px solid rgb(253, 249, 249);
+  }.mtop-text{
+    float: left}
+    /* 下拉框 */
+    .m_selected{
+      width: 50%;
+      display: flex;
+      float: right;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid rgb(248, 246, 246);
+      margin: 0rpx 50rpx 0rpx 0rpx;
+      font-size: 40rpx;
+  }/* 下拉内容 */.mselect_box {
+      background-color: #fff;
+      margin: 0rpx 50rpx 0rpx 0rpx;
+      width: 50%;
+      float: right;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+      overflow: hidden;
+      text-align: left;
+      animation: myfirst 0.5s;
+      font-size: 30rpx;
+  }.mselect_one {
+      padding-left: 20rpx;
+      width: 100%;
+      height: 60rpx;
+      position: relative;
+      line-height: 60rpx;
+      border-bottom: 1px solid #ccc;
+  }/* 下拉过度效果 */
+  @keyframes mmyfirst {
+      from {
+          height: 0rpx;
+      }
+      to {
+          height: 210rpx;
+      }}/* 下拉图标 */
+    .m_selected image{
+    height:50rpx;
+    width:50rpx;
+    position: relative;
+    right: 0rpx;
+    top: 0rpx;
   }

@@ -6,7 +6,7 @@ indicator-color="#FFFFFF"
 indicator-active-color="#888888"
 circular="true"
 >    
-  <swiper-item wx:for="{{swiperList}}">
+  <swiper-item wx:for="{{swiperList}}"  wx:key="unique">
     <image src="/pic/{{item}}"></image>
   </swiper-item> 
 </swiper>

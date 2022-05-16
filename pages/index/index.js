@@ -10,6 +10,10 @@ wx-Page({
     grades: [        '成都',        '绵阳',        '重庆',],
     checkInDate:2022+'-'+5+'-'+9,
     checkOutDate:2022+'-'+5+'-'+10,
+    day:'1',
+    show:false,
+    money_name:'--请选择--',
+    money:[   '0-100',   '100-200',   '200-400',   '400-600',]
     },
 
   /**
@@ -49,22 +53,16 @@ mySelect(e) {
       select: false
     })
 },
-num_data: function (e) {
-  var checkInDate = new Date(this.data.checkInDate.replace(/-/g, "/"));
-  var checkOutDate = new Date(this.data.checkutDate.replace(/-/g, "/"));
-  var days = checkOutDate.getTime() - checkInDate.getTime();
-  var day = parseInt(days / (1000 * 60 * 60 * 24));
-  if (day>0) {
-    this.setData({
-      num: day
-    })
-  } else {
-    wx.showToast({
-      image: '/image/false.png',
-      title: '日期有误',
-    })
-    this.onShow()
-  }
+mbindShowMsg() {    this.setData({
+  show: !this.data.show
+})
 },
-
+mmySelect(e) {
+  console.log(e)   
+  var name = e.currentTarget.dataset.name
+    this.setData({
+      money_name: name,
+      show: false
+    })
+},
 })
