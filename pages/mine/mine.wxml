@@ -14,7 +14,7 @@
     </view>
     <view class="card">身份证号码 :</view>
     <view class="user-card" > 
-        <input class="weui-input" disabled='{{isDisabled}}'  type="idcard" bindinput="userIDinput" placeholder="请输入身份证号码" maxlength="19"/>
+        <input class="weui-input" disabled='{{isDisabled}}'  type="idcard" bindinput="userIDinput" placeholder="请输入身份证号码"/>
     </view>
     <view class="emlie">邮箱地址 :</view>
     <view class="user-emlie">

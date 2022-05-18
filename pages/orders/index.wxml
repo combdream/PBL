@@ -11,14 +11,14 @@
      {{item.id}}
     </view>
     <view class="text">
-        <view class="price" style="width: 145rpx; height: 47rpx; display: block; box-sizing: border-box">
+        <view class="price"  >
             价格: {{item.pricre}}
         </view >
-        <view class="actionUrl" style="width: 145rpx; height: 93rpx; display: block; box-sizing: border-box">
-         <view class="more" bindtap="urlSwitch"  style="width: 185rpx; height: 47rpx; display: block; box-sizing: border-box">
+        <view class="actionUrl" >
+         <view class="more" bindtap="urlSwitch" >
             {{item.more}}
          </view> 
-        <view class="say"  style="width: 145rpx; height: 47rpx; display: flex; box-sizing: border-box">
+        <view class="say" bindtap="url2Switch" >
             {{item.say}}
         </view>
     </view>

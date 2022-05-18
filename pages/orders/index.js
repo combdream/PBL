@@ -53,12 +53,16 @@ Page({
             tabs
         })
     },
-    // urlSwitch:function(e){
-    //     if(dataList.more =="详情"){
-            
-    //     }
-
-    // },
+     urlSwitch:function(e){
+            wx.navigateTo({
+                url: '/pages/order_xq/index',
+              })
+    },
+    url2Switch:function(e){
+        wx.navigateTo({
+          url: '/pages/pingjia/indexs',
+        })
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

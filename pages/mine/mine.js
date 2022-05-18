@@ -52,6 +52,7 @@ Page({
   },
   userPhoneNumber:function(e){
         this.setData({
+            
             inputP:e.detail.value
         })
   },
