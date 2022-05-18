@@ -42,3 +42,13 @@
 .text.price{
     color: #999;
 }
+.say{
+    display: flex;
+    color: #ff8800;
+    font-size: 35rpx;
+}
+actionUrl{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}

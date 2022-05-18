@@ -23,14 +23,13 @@ Page({
             }
         ],
         dataList:[
-            {id:"订单一",pricre:"￥255",more:"详情"},
-            {id:"订单二",pricre:"￥200",more:"更多"},
+            {id:"订单一",pricre:"￥255",more:"详情",say:"评价"},
+            {id:"订单二",pricre:"￥200",more:"去支付"},
             {id:"订单三",pricre:"￥150",more:"修改评价"}
 
         ]
 
     },
-
     /**
      * 生命周期函数--监听页面加载
      */
@@ -54,6 +53,12 @@ Page({
             tabs
         })
     },
+    // urlSwitch:function(e){
+    //     if(dataList.more =="详情"){
+            
+    //     }
+
+    // },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
