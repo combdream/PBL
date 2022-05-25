@@ -60,7 +60,7 @@ Page({
     },
     url2Switch:function(e){
         wx.navigateTo({
-          url: '/pages/pingjia/indexs',
+          url: '/pages/pingjia/index',
         })
     },
     /**
