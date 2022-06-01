@@ -10,17 +10,20 @@
     <button class="user-exchange"   size="default" form-type="submit" bindtap="exchangeUser"> {{text}}</button>
     <view class="phone">电话 : </view>
     <view class="user-num">
-            <input class="weui-input"disabled="{{isDisabled}}"  type="number" bindinput="userPhoneNumber" placeholder="请输入电话号码" maxlength="12"/>
+            <input class="weui-input"disabled="{{isDisabled}}"  type="number" password="{{!open}}" bindfocus="focus" bindblur="blur"  bindinput="userPhoneNumber" placeholder="请输入电话号码" maxlength="12"/>
+            
     </view>
-    <view class="card">身份证号码 :</view>
+    <image style="position: absolute; left: 589rpx; top: 75rpx"  src="{{open?'/icons/eye.png':'/icons/eye_open.png'}}" class="eye" bindtap="switch" />
+    <view class="card" style="position: absolute; left: 0rpx; top: 131rpx">身份证号码 :</view>
     <view class="user-card" > 
 
-        <input class="weui-input" disabled='{{isDisabled}}'  type="idcard" bindinput="userIDinput" placeholder="请输入身份证号码" maxlength="19"/>
+        <input class="weui-input" disabled='{{isDisabled}}'  type="idcard" password="{{!open}}" bindfocus="focus" bindblur="blur" bindinput="userIDinput" placeholder="请输入身份证号码" maxlength="19"/>
 
     </view>
+    <image style="position: absolute; left: 589rpx; top: 214rpx"  src="{{open?'/icons/eye.png':'/icons/eye_open.png'}}" class="eye" bindtap="switch" />
     <view class="emlie">邮箱地址 :</view>
     <view class="user-emlie">
-        <input class="weui-input" disabled="{{isDisabled}}" type="text" bindinput="userEmileInput" placeholder="请输入邮箱" maxlength="20"/>
+        <input class="weui-input" disabled="{{isDisabled}}" type="text"  bindinput="userEmileInput" placeholder="请输入邮箱" maxlength="20"/>
     </view>
   </view>
   

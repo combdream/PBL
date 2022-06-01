@@ -128,3 +128,6 @@
     right: 100px;
     
 }
+.eye{
+    width: 54rpx; height: 35rpx; display: block; box-sizing: border-box; left: 431rpx; top: 18rpx; position: absolute
+}

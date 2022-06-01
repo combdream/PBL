@@ -1,6 +1,8 @@
 var app = getApp()
 Page({
     data:{ 
+        open: true,//默认显示数据
+        focus:false,
         isDisabled:true,
         text:"编辑",
         inputP:'',
@@ -70,15 +72,43 @@ exchangeUser:function(e){
     if(!this.data.isDisabled){
         this.setData({
             isDisabled:true,
-            text:"编辑"
+            text:"编辑",
+            open:false
         })
     }else{
         this.setData({
             isDisabled:false,
-            text:"保存"
+            text:"保存",
+            open:true
         })
     }
         
-}
+},
+switch(){
+    this.setData({
+        open:!this.data.open
+    })
+},
+focus(){
+    this.setData({
+        focus:true
+    })
+},
+blur(){
+    this.setData({
+        focus:false
+    })
+},
+
+//   screat:function (e) {
+//     this.setData({
+//       inputID: e.data.inputID.substr(0, 4) + "*".repeat(e.data.inputID.length - 8) + e.data.inputID.substr(-4)
+//     })
+//     console.log(e.data.inputID);
+//   },
+
+
+
+
 })
   
