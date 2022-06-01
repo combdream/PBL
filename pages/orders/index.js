@@ -53,14 +53,7 @@ Page({
             tabs
         })
     },
-<<<<<<< HEAD
-    // urlSwitch:function(e){
-    //     if(dataList.more =="详情"){
-            
-    //     }
 
-    // },
-=======
      urlSwitch:function(e){
             wx.navigateTo({
                 url: '/pages/order_xq/index',
@@ -71,7 +64,7 @@ Page({
           url: '/pages/pingjia/index',
         })
     },
->>>>>>> 478bdfdd9752018a80c3ba18b4f2638f27513ebd
+
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

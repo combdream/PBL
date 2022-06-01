@@ -11,16 +11,7 @@
      {{item.id}}
     </view>
     <view class="text">
-<<<<<<< HEAD
-        <view class="price" style="width: 145rpx; height: 47rpx; display: block; box-sizing: border-box">
-            价格: {{item.pricre}}
-        </view >
-        <view class="actionUrl" style="width: 145rpx; height: 93rpx; display: block; box-sizing: border-box">
-         <view class="more" bindtap="urlSwitch"  style="width: 185rpx; height: 47rpx; display: block; box-sizing: border-box">
-            {{item.more}}
-         </view> 
-        <view class="say"  style="width: 145rpx; height: 47rpx; display: flex; box-sizing: border-box">
-=======
+
         <view class="price"  >
             价格: {{item.pricre}}
         </view >
@@ -29,7 +20,7 @@
             {{item.more}}
          </view> 
         <view class="say" bindtap="url2Switch" >
->>>>>>> 478bdfdd9752018a80c3ba18b4f2638f27513ebd
+
             {{item.say}}
         </view>
     </view>
