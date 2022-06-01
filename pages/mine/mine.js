@@ -52,6 +52,10 @@ Page({
   },
   userPhoneNumber:function(e){
         this.setData({
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 478bdfdd9752018a80c3ba18b4f2638f27513ebd
             inputP:e.detail.value
         })
   },

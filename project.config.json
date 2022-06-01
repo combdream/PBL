@@ -23,8 +23,13 @@
         "compileHotReLoad": false,
         "lazyloadPlaceholderEnable": false,
         "useMultiFrameRuntime": true,
+<<<<<<< HEAD
         "useApiHook": true,
         "useApiHostProcess": true,
+=======
+        "useApiHook": false,
+        "useApiHostProcess": false,
+>>>>>>> 478bdfdd9752018a80c3ba18b4f2638f27513ebd
         "babelSetting": {
             "ignore": [],
             "disablePlugins": [],
@@ -40,7 +45,8 @@
         "minifyWXML": true,
         "showES6CompileOption": false,
         "useCompilerPlugins": false,
-        "ignoreUploadUnusedFiles": true
+        "ignoreUploadUnusedFiles": true,
+        "useStaticServer": true
     },
     "appid": "wx69fcf5e718c2f178",
     "compileType": "miniprogram",

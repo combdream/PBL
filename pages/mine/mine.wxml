@@ -14,7 +14,11 @@
     </view>
     <view class="card">身份证号码 :</view>
     <view class="user-card" > 
+<<<<<<< HEAD
         <input class="weui-input" disabled='{{isDisabled}}'  type="idcard" bindinput="userIDinput" placeholder="请输入身份证号码" maxlength="19"/>
+=======
+        <input class="weui-input" disabled='{{isDisabled}}'  type="idcard" bindinput="userIDinput" placeholder="请输入身份证号码"/>
+>>>>>>> 478bdfdd9752018a80c3ba18b4f2638f27513ebd
     </view>
     <view class="emlie">邮箱地址 :</view>
     <view class="user-emlie">
